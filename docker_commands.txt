@@ -1,0 +1,17 @@
+This file will contain all the docker commands that we are using in this project
+1)to build the docker image from dockerfile
+
+docker build . -t java-docker-project
+
+2)to run the container by using docker image 
+
+docker run java-docker-project
+
+3)to see the list of containers
+
+docker ps
+
+4)to see the docker images list 
+
+docker ls
+
